@@ -5,7 +5,8 @@ on:
       - main
       - master
       - dev
-env: MONGODB_DB_NAME
+env: 
+  MONGODB_DB_NAME: my-database
 jobs:
   test:
     env: 
